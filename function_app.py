@@ -64,23 +64,23 @@ def analyze_number(num):
     sum_of_divisors = sum(i for i in range(1, n) if n % i == 0)
     is_perfect = (sum_of_divisors == n)
 
-    # total = 0
-    # i = 1
-    # while total < n:
-    #     total += i
-    #     if total == n:
-    #         is_triangular = True
-    #         break
-    #     i += 1
-    # else:
-    #     is_triangular = False
+    total = 0
+    i = 1
+    while total < n:
+        total += i
+        if total == n:
+            is_triangular = True
+            break
+        i += 1
+    else:
+        is_triangular = False
     # TODO 6: Replace default values below with the results of the calculations from TODOs 2-5.
     response = {
         "sum_of_digits": sum_of_digits,
         "is_prime": is_prime,
         "is_odd": is_odd,
-        "is_perfect": is_perfect
-        # "is_triangular": is_triangular
+        "is_perfect": is_perfect,
+        "is_triangular": is_triangular
     }
 
     return response

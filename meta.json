@@ -1,0 +1,7 @@
+{
+    "github_username": "Devin-Dongdong",
+    "repository": "cicd-functions",
+    "token": "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",
+    "function_app_name": "devin-azure-function-app",
+    "task2_function_endpoint": "https://devin-azure-function-app.azurewebsites.net/api/http_trigger"
+}
